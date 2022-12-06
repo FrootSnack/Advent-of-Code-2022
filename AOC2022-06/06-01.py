@@ -6,7 +6,7 @@ WINDOW_SIZE = 4
 char_ind = 0
 window = []
 
-for char_ind, char in enumerate(input_line):
+for char in input_line:
     if char in window:
         shift_start = window.index(char) + 1
         window = window[shift_start:]
