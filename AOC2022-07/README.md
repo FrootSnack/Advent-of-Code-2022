@@ -51,7 +51,7 @@ void clean_tree(Dir* root) {
 }
 ```
 
-That's all of the helper code we'll need for our solution! Our `main()` method is quite simple: we'll go through the input file, splitting on `\n` (newline) characters, and parse our commands accordingly. With this last piece of the puzzle completed, I had my solution!
+That's all of the helper code we'll need for our solution! Our `main()` method is a bit convoluted, but it's easy enough to understand: we'll go through the input file, splitting on `\n` (newline) characters, and parse our commands accordingly. With this last piece of the puzzle completed, I had my solution!
 
 > I recognize that this is definitely a bit of an overengineered solution for the given problem. For today's challenge, I wanted to focus more on building my C competency and creating a robust and efficient solution than on slapping a Python script together as quickly as possible.
 
